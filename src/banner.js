@@ -26,6 +26,7 @@ export default function Banner() {
     default:
       break;
   }
+  
   const bannerClick = () => {
     window.open(url);
   };
