@@ -1,9 +1,13 @@
 import React from "react";
-import "./style.css";
-import MessageBox from "./state-func";
+import { userContext } from "./context";
+import Header from "./context-header";
 
 function App() {
-  return <MessageBox />;
+  return (
+    <userContext.Provider value={"Tom Jerry"}>
+      <Header />
+    </userContext.Provider>
+  );
 }
 
 export default App;
