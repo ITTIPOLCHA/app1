@@ -1,6 +1,6 @@
 import React from "react";
-import Router3 from "./router3";
+import FromSearch from "./from-search";
 
 export default function App() {
-  return <Router3 />;
+  return <FromSearch />;
 }
