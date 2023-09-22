@@ -1,6 +1,6 @@
 import React from "react";
-import FromSearch from "./from-search";
+import FromBootstrap from "./from-bootstrap";
 
 export default function App() {
-  return <FromSearch />;
+  return <FromBootstrap />;
 }
