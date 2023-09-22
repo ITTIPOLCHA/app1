@@ -51,7 +51,7 @@ export default function Router3() {
           path="/contact"
           element={<div style={{ textAlign: "center" }}>Contact Page</div>}
         />
-        <Route path="/*" element={<Home />} />
+        <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
   );
