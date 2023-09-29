@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FromBootstrap() {
+export default function FormBootstrap() {
   return (
     <div
       className="mt-3 mx-auto p-3"
